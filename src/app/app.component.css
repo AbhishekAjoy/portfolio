@@ -1,8 +1,17 @@
+body{
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+}
 .app-container{
     background-color: #FDF6E6;
     color: black;
     padding-left: 10vw;
 }
+
+section{
+    scroll-snap-align: start;
+  }
+
 .app-content{
     height: 100vh;
     display: flex;
