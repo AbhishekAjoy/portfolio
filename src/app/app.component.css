@@ -1,0 +1,22 @@
+.app-container{
+    height: 100vh;
+    background-color: #FDF6E6;
+    color: black;
+    padding-left: 10vw;
+}
+.app-content{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.intro{
+    margin-top: 20vh;
+    font-size: 3vw;
+}
+img#my-photo{
+    margin-top: 10vh;
+    max-height: 500px;
+    width: auto;
+    height: 70vh;
+}
