@@ -1,0 +1,22 @@
+.about-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.caption{
+    width: 40vw;
+    padding: 40vh 5vw;
+    font-size: 2.7em;
+}
+.desc{
+    font-size:calc(12px + 1.2vw);
+    padding: 10vh 5vw;
+    background-color: #f3e5c3;;
+}
+.skills{
+
+    height: 50vh;
+}
+.experience{
+    height: 50vh;
+}

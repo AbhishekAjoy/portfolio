@@ -1,11 +1,10 @@
 .app-container{
-    height: 100vh;
     background-color: #FDF6E6;
     color: black;
     padding-left: 10vw;
 }
 .app-content{
-    
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -15,7 +14,7 @@
     font-size: 3vw;
 }
 img#my-photo{
-    margin-top: 10vh;
+    margin-top: 8vh;
     max-height: 500px;
     width: auto;
     height: 70vh;
