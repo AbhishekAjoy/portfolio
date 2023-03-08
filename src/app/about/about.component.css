@@ -5,12 +5,15 @@
 }
 .caption{
     width: 40vw;
-    padding: 30vh 5vw;
-    font-size: calc(14px + 2vw);;
+    display: flex;
+    align-items: center;
+    padding-left: calc(30px + 1.2vw);
+    padding-right: calc(30px + 1.2vw);;
+    font-size: calc(14px + 2vw);
 }
 .desc{
     font-size:calc(12px + 1.2vw);
-    padding: 10vh 5vw;
+    padding: 10vh calc(5px + 5vw);
     background-color: #f3e5c3;;
 }
 .skills{

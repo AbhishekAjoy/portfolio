@@ -2,15 +2,15 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 30vh;
+    padding-right:  calc(40px + 1.2vw);
     padding-top: 7vh;
 }
 .btn{
     text-decoration: none;
     color: black;
     margin-left: 45px;
-    padding: 5px 10px;
-    font-size: 1.5em;
+    padding: 5px 15px;
+    font-size: calc(12px + 1.2vw);
     cursor: pointer;
 }
 
