@@ -45,4 +45,10 @@ div > img{
     a > img:hover{
         transform: scale(0.8);
     }
+    a > img:hover::after{
+        transform: scale(1);
+    }
+    a > img:focus::after{
+        transform: scale(1);
+    }
 }

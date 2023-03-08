@@ -41,7 +41,23 @@
     .btn:hover{
         border: 2px solid black;
     }
+
+    .btn:hover::after{
+        border: none;
+    }
+
+    .btn:focus::after{
+        border: none;
+    }
     .contact:hover,.about:hover{
         transform: scale(0.9);
     }
+    .contact:hover::after,.about:hover::after{
+        transform: scale(1);
+    }
+    .contact:focus::after,.about:focus::after{
+        transform: scale(1);
+    }
+
+    
 }
