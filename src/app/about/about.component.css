@@ -1,15 +1,15 @@
 .about-container{
     display: flex;
     flex-direction: row;
+
     height: 100vh;
 }
 .caption{
-    width: 40vw;
     display: flex;
     align-items: center;
-    padding-left: calc(30px + 1.2vw);
-    padding-right: calc(30px + 1.2vw);;
-    font-size: calc(14px + 2vw);
+    padding-left: calc(15px + 2vw);
+    padding-right: calc(15px + 2vw);;
+    font-size: calc(12px + 2vw);
 }
 .desc{
     font-size:calc(12px + 1.2vw);
@@ -17,9 +17,18 @@
     background-color: #f3e5c3;;
 }
 .skills{
-
+    padding-left: calc(7px + 2vw);
     height: 50vh;
 }
 .experience{
     height: 50vh;
+}
+@media only screen and (max-width: 350px) {
+    .caption{
+        padding-left: calc(5px + 1vw);
+        padding-right: calc(5px + 1vw);
+    }
+    .skills{
+        padding-left: calc(5px + 1vw);
+    }
 }
