@@ -14,9 +14,6 @@
     cursor: pointer;
 }
 
-.btn:hover{
-    border: 2px solid black;
-}
 
 .contact, .about{
     transition: all 0.3s ease-in-out;
@@ -25,9 +22,6 @@
     border: 2px solid black;
     background-color: black;
     color: white;
-}
-.contact:hover,.about:hover{
-    transform: scale(0.9);
 }
 
 @media only screen and (max-width: 500px) {

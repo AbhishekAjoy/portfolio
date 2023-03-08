@@ -8,9 +8,7 @@ a > img{
     padding-left: calc(10px + 2vw);
     transition: all 0.2s ease-in-out;
 }
-a > img:hover{
-    transform: scale(0.8);
-}
+
 #linkedin{
     padding-left: 0px;
 }
