@@ -42,3 +42,9 @@ div > img{
     align-items: center;
     justify-content: center;
 }
+
+@media (hover: hover) {
+    a > img:hover{
+        transform: scale(0.8);
+    }
+}

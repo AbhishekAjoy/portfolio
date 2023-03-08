@@ -43,3 +43,11 @@
         margin-left: 25px;
     }
 }
+@media (hover: hover) {
+    .btn:hover{
+        border: 2px solid black;
+    }
+    .contact:hover,.about:hover{
+        transform: scale(0.9);
+    }
+}
