@@ -1,5 +1,5 @@
 #find-text{
-    padding-top: 10vw;
+    /*padding-top: 10vw;*/
     font-size: calc(14px + 3.5vw);
 }
 a > img{
@@ -29,7 +29,7 @@ div > img{
 .links
 {
     cursor: pointer;
-    padding-top: 5vw;
+    /*padding-top: 5vw;*/
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -40,4 +40,5 @@ div > img{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
