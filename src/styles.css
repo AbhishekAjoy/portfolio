@@ -5,6 +5,7 @@
 }
 html{
     scroll-snap-type: y proximity;
+    scroll-behavior: smooth;
 }
 body{
     font-family: 'General Sans', sans-serif;

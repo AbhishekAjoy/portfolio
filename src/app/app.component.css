@@ -20,7 +20,7 @@ section{
 }
 .intro{
     margin-top: 20vh;
-    font-size: 3vw;
+    font-size: calc(14px + 2.5vw);
 }
 img#my-photo{
     margin-top: 8vh;

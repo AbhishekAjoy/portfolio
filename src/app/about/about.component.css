@@ -5,8 +5,8 @@
 }
 .caption{
     width: 40vw;
-    padding: 40vh 5vw;
-    font-size: 2.7em;
+    padding: 30vh 5vw;
+    font-size: calc(14px + 2vw);;
 }
 .desc{
     font-size:calc(12px + 1.2vw);
