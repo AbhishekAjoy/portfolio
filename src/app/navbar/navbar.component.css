@@ -37,7 +37,7 @@
         margin-left: 25px;
     }
 }
-@media (hover: hover) {
+@media (hover: hover)and (pointer: fine) {
     .btn:hover{
         border: 2px solid black;
     }

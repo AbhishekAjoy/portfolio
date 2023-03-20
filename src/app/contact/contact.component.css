@@ -25,6 +25,13 @@ div > img{
     padding-top: 2px;
     height: 30px;
 }
+
+#phone > img{
+    padding-top: 4px;
+    padding-right: 2px;
+    height: 20px;
+}
+
 .links
 {
     margin-top: 50px;
@@ -41,7 +48,7 @@ div > img{
     justify-content: center;
 }
 
-@media (hover: hover) {
+@media (hover: hover) and (pointer: fine) {
     a > img:hover{
         transform: scale(0.8);
     }
