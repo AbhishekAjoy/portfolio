@@ -1,9 +1,11 @@
 import { Component, ElementRef, AfterViewInit, ViewChild } from '@angular/core';
+import { NgOptimizedImage } from '@angular/common'
 
 @Component({
     selector: 'app-contact',
     templateUrl: './contact.component.html',
     styleUrls: ['./contact.component.css'],
+    imports: [NgOptimizedImage],
     standalone: true
 })
 export class ContactComponent implements AfterViewInit {
