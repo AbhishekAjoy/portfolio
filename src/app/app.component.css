@@ -11,7 +11,7 @@ section{
 
 .app-content{
     width: auto;
-    height: 90vh;
+    height: 90dvh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -19,7 +19,7 @@ section{
 }
 .intro{
     /*margin-top: calc(70px + 10vh);*/
-    font-size: calc(14px + 2.5vw);
+    font-size: calc(14px + 2.5dvw);
 }
 img#my-photo{
     /*margin-top: calc(50px + 7vh);*/
