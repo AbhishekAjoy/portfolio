@@ -52,7 +52,9 @@ h1{
     align-items:center;
     justify-content: space-between;
 }
-
+.inst-name{
+    font-size: 1.2rem;
+}
 @media only screen and (max-width: 500px) {
     .about-container{
         display: flex;
@@ -76,5 +78,6 @@ h1{
 
     .inst-name{
         display:block;
+        font-size: 0.9rem;
     }
 }
