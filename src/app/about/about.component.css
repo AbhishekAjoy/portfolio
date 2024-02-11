@@ -67,6 +67,12 @@ h1{
         height: 80dvh;
         padding-left: calc(5px + 1vw);
     }
+    .exp-desc{
+        font-size: 0.8rem;
+    }
+    .exp-desc > li{
+        font-size: 0.7rem;
+    }
 
     .inst-name{
         display:block;
