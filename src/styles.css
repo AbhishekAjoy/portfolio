@@ -22,3 +22,4 @@ html{
 body{
     font-family: 'General Sans', sans-serif;
 }
+html, body { height: 100%; }

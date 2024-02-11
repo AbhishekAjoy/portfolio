@@ -1,6 +1,7 @@
 import { Component, ElementRef, ViewChild } from '@angular/core';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgOptimizedImage } from '@angular/common';
 
@@ -9,7 +10,7 @@ import { NgOptimizedImage } from '@angular/common';
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
     standalone: true,
-    imports: [NavbarComponent, AboutComponent, ContactComponent,NgOptimizedImage]
+    imports: [NavbarComponent, AboutComponent, ContactComponent,ProjectsComponent,NgOptimizedImage]
 })
 export class AppComponent {
   title = 'portfolio';

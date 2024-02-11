@@ -1,21 +1,63 @@
 <div class="about-container">
     <div class="caption">
-       <h1 #animate>Software developer <br/>with a love for minimalist design</h1> 
+       <h1 #animate>'You cannot create experience. You must undergo it.' <br/><span style ="font-size:smaller;">– Albert Camus</span></h1>
+
     </div>
     <div class="desc">
         <div class="experience">
-            Working as an Angular developer.
-            I have also worked on ASP.NET core for creating WEB APIs.
+            <mat-stepper orientation="vertical" [linear]="isLinear" #stepper>
+                <mat-step>
+                    <ng-template matStepLabel>Systems Engineer, <span class="inst-name">Tata Consultancy Services</span></ng-template>
+                    <div class="exp-details">
+                        <h6>Jul 2021 - Present</h6>
+                        <h6>Kochi, India</h6>
+                    </div>
+                    <ul class = "exp-desc">
+                        <li>Worked as a functional tester for a web application, managed test cases using zephyr</li>
+                        <li>Performed API testing on swagger and tested ETL systems</li>
+                        <li>Wrote performant, complex SQL queries to retrieve/create data for testing</li>
+                        <li>Found defects through thorough regression testing after each story.</li>
+                        <li>Worked in an Agile, Cross-functional team</li>
+                        <li>Worked in web development in .NET and Angular</li>
+                        <li>Used Azure to deploy code to multiple environments</li>
+                    </ul>
+                </mat-step>
+                <mat-step>
+                    <ng-template matStepLabel>BTech, <span class="inst-name">Rajagiri School of Engineering & Technology</span></ng-template>
+                    <div class="exp-details">
+                        <h6>2017-2021</h6>
+                        <h6>Kochi,India</h6>
+                    </div>
+
+                    <ul class="exp-desc">
+                        <li>CGPA: 8.03 (10 point grading)</li>
+                        <li>Built an Automated test evaluator using flask which could evaluate and score descriptive answer in one shot using BERT language model embeddings.</li>
+                        <li>Participated in Workshops organised by different colleges across the state.</li>
+                        <li>Participated in various club activities</li>
+                    </ul>
+                </mat-step>
+                <mat-step>
+                    <ng-template matStepLabel>High School, <span class="inst-name">Sunrise English Private School</span></ng-template>
+                    <div class="exp-details">
+                        <h6>2014-2017</h6>
+                        <h6>Abu Dhabi, UAE</h6>
+                    </div>
+                    <ul class="exp-desc">
+                        <li>Grade 12: 90%</li>
+                        <li>Grade 10: 9.6 CGPA (10 point grading)</li>
+                    </ul>
+                </mat-step>
+              </mat-stepper>
         </div>
 
-        <div class="skills">
+        <!-- <div class="skills">
             <ul>
                 <li>Angular 6+</li>
-                <li>ASP.NET Core</li>
+                <li>.NET</li>
                 <li>HTML,CSS, Javascript</li>
                 <li>SQL</li>
                 <li>Python</li>
             </ul>
-        </div>
+        </div> -->
     </div>
 </div>

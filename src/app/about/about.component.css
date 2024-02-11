@@ -9,12 +9,12 @@
     align-items: center;
     padding-left: calc(15px + 2vw);
     padding-right: calc(15px + 2vw);;
-    font-size: calc(12px + 2vw);
+    font-size: calc(10px + 2vw);
 }
 .desc{
     font-size:calc(12px + 1.2vw);
     padding: 10vh calc(5px + 5vw);
-    background-color: #f3e5c3;;
+    background-color: #FDF6E6;
 }
 .skills{
     padding-left: calc(7px + 2vw);
@@ -36,12 +36,39 @@ h1{
     transform: translateY(0);
 }
 
-@media only screen and (max-width: 350px) {
+.exp-desc{
+    font-size: 0.9rem;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.exp-desc > li{
+    margin-bottom: 3px;
+}
+
+.exp-details{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) {
+    .about-container{
+        display: flex;
+        flex-direction: column;
+    }
     .caption{
+        height: 20dvh;
         padding-left: calc(5px + 1vw);
         padding-right: calc(5px + 1vw);
     }
-    .skills{
+    .desc{
+        height: 80dvh;
         padding-left: calc(5px + 1vw);
+    }
+
+    .inst-name{
+        display:block;
     }
 }
